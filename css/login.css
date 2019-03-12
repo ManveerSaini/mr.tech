@@ -1,0 +1,65 @@
+.back_img{
+	background-image: url("../images/1.jpg");
+	width: 1300px;
+	height: 100%;
+	background-size: cover;
+/*	position: relative;
+	display: flex;
+	justify-content: space-around;*/
+}
+.main_container{
+	width: 1300px;
+	height: 100%;
+	position:relative;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-around;
+}
+.logo img{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+.container{
+	width: 600px;
+	height: 550px;
+	position: absolute;
+	background: #000;
+	top: 50px;
+	opacity: .4;
+	animation: 1.5s container ease-out;
+	display: flex;
+	justify-content: space-around;
+}
+@keyframes container{
+	0%{
+		height: 0px;
+	}
+	100%{
+		height: 550px;
+	}
+}
+h1{
+	color: #f80;
+	z-index: 2;
+	font-size: 48px;
+	position: absolute;
+	text-decoration: underline #f80;
+	animation: .5s login ;
+}
+@keyframes login{
+	0%{
+		font-size: 32px;
+	}
+	/*50%{
+		font-size: 60px;
+		color: #f00;
+		text-decoration: underline #f00;
+	}*/
+	100%{
+		font-size: 48px;
+	}
+}

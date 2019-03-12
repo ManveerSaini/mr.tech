@@ -1,0 +1,11 @@
+.container{
+	width: 99%;
+	height: 99%;
+	background: #f80;
+
+}
+.product_photo{
+	width: 100px;
+	height: 100px;
+	background: #f80;
+}
